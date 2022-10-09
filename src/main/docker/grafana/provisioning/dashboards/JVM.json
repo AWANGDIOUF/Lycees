@@ -3684,7 +3684,7 @@
         "allValue": null,
         "current": {
           "text": "localhost:",
-          "value": "localhost:8080"
+          "value": "localhost:8787"
         },
         "datasource": "Prometheus",
         "definition": "",
