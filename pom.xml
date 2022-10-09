@@ -649,7 +649,7 @@
                         <downloadJavadocs>true</downloadJavadocs>
                     </configuration>
                 </plugin>
-                <plugin>
+                <!-- <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-enforcer-plugin</artifactId>
                     <version>${maven-enforcer-plugin.version}</version>
@@ -668,9 +668,9 @@
                                 </rules>
                                 <fail>false</fail>
                             </configuration>
-                            <!-- <goals>
+                            <goals>
                                 <goal>enforce</goal>
-                            </goals> -->
+                            </goals>
                         </execution>
                     </executions>
                     <configuration>
@@ -685,7 +685,7 @@
                             </requireJavaVersion>
                         </rules>
                     </configuration>
-                </plugin>
+                </plugin> -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-idea-plugin</artifactId>
