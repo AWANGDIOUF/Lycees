@@ -13,6 +13,4 @@ COPY . /project
 WORKDIR /project
 RUN mvn package -Pprod
 
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom", "-Dblabla", 
-"-jar","/project/target/projet-de-base-jhipster-0.0.1-SNAPSHOT.jar", 
-"--spring.profiles.active=prod,api-docs","-DskipTests=true"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom", "-Dblabla", "-jar","/project/target/projet-de-base-jhipster-0.0.1-SNAPSHOT.jar", "--spring.profiles.active=prod,api-docs","-DskipTests=true"]
